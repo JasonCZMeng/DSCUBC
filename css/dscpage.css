@@ -14,12 +14,12 @@
 }
 
 body {
-	--text-color: #fff;
-	--background-color: #363dc2;
-	--background-color-2: #282faf;
-	--background-color-3: #202692;
-	--link-color: #03b9f1;
-	--link-hover-color: #fff;
+	--text-color: #ffffff;
+	--background-color: #1d1b22;
+	--background-color-2: #342560;
+	--background-color-3: #553e9a;
+	--link-color: #FFF;
+	--link-hover-color: #30bdff;
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 500;
 	color: #fff;
@@ -86,15 +86,6 @@ a:focus {
 	width: 0;
 	height: 0;
 	pointer-events: none;
-}
-
-/* Icons */
-.icon {
-	display: block;
-	width: 1.5em;
-	height: 1.5em;
-	margin: 0 auto;
-	fill: currentColor;
 }
 
 /* Deco Shape */
@@ -330,19 +321,6 @@ a:focus {
 	align-self: start;
 }
 
-/* Header */
-.codrops-header {
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	z-index: 100;
-	grid-area: header;
-	align-self: start;
-	justify-self: start;
-}
-
 .header__title{
 	font-size: 1em;
 	padding: 0.75em 0;
@@ -390,33 +368,6 @@ a:focus {
 	text-align: right;
 	align-self: end;
 	justify-self: end;
-}
-
-/* Top Navigation Style */
-.codrops-links {
-	position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 1em 0 0;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.codrops-icon {
-	position: relative;
-	display: inline-block;
-	padding: 0.75em 0.75em 1em;
-}
-
-/* Demo themes */
-.demo-2 {
-	--background-color: #1d1b22;
-	--background-color-2: #342560;
-	--background-color-3: #553e9a;
-	--text-color: #fff;
-	--link-color: #f9ed8a;
-	--link-hover-color: #fff;
 }
 
 
